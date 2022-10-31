@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 import { Button, Icon, WhiteSpace, WingBlank } from '@ant-design/react-native'
-import { MyTitle, StyledText, StyledView } from '../appStyles'
+import { MyTitle, StyledText, StyledView } from '../styles/appStyles'
 
 
 const Home = () => {
