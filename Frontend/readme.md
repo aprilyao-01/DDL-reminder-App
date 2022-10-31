@@ -1,18 +1,18 @@
-# How to run this frontend code
+# :athletic_shoe: How to run this frontend code
 This project using **React Native** with development on macOS and target on iOS.
 
 ## Run instructions for Android:
    - Have an Android emulator running (quickest way to get started), or a device connected.
    - cd "Frontend/ddlReminder" && npx react-native run-android
   
-## Run instructions for iOS:
+## Run instructions for  iOS:
    - cd "/Frontend/ddlReminder" && npx react-native run-ios
     -- or --
    - Open ddlReminder/ios/ddlReminder.xcworkspace in Xcode or run "xed -b ios"
    - Hit the Run button
 
 
-# Others
+# :memo: Others
 ## React vs. React Native
 | |React|React Native|
 |-|-----|------------|
@@ -32,3 +32,51 @@ This project using **React Native** with development on macOS and target on iOS.
 
 
 ![React Native Components](/img/ReactNativeComponents.png)
+
+
+
+# :crying_cat_face: Something that makes my life easier
+
+## ANTD:ant: and Styled-components
+- [ANTD](https://rn.mobile.ant.design/docs/react/introduce-cn)
+- [Styled-components](https://styled-components.com)
+
+## Short keys
+Install dependence "**ES7+ React/Redux/React-Native snippets**" in VSCode. After create a new components,
+- `rafc` get *Creates a React Arrow Function Component with ES7 module system (ES7+ React/Redux/React-Native snippets)*
+```tsx
+import React from 'react'
+
+export const Home = () => {
+  return (
+    <div>Home</div>
+  )
+}
+```
+- `rafce` get *Creates a React Arrow Function Component with ES7 module system (ES7+ React/Redux/React-Native snippets)*
+```tsx
+import React from 'react'
+
+const Home = () => {
+  return (
+    <div>Home</div>
+  )
+}
+
+export default Home
+```
+- `rafcp` get *Creates a React Arrow Function Component with ES7 module system with PropTypes (ES7+ React/Redux/React-Native snippets)*
+```tsx
+import React from 'react'
+import PropTypes from 'prop-types'
+
+const Home = props => {
+  return (
+    <div>Home</div>
+  )
+}
+
+Home.propTypes = {}
+
+export default Home
+```
