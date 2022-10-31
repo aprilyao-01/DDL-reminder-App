@@ -35,15 +35,15 @@ This project using **React Native** with development on macOS and target on iOS.
 
 
 
-# :crying_cat_face: Something that makes my life easier
+# :smiley_cat: Something that makes my life easier
 
 ## ANTD:ant: and Styled-components
-- [ANTD](https://rn.mobile.ant.design/docs/react/introduce-cn)
-- [Styled-components](https://styled-components.com)
+- [ANTD](https://rn.mobile.ant.design/docs/react/introduce-cn): pre-defined UI library, save time to style UI components.
+- [Styled-components](https://styled-components.com): able to use css style inside js/ts file, easy to structure and modify style.
 
-## Short keys
-Install dependence "**ES7+ React/Redux/React-Native snippets**" in VSCode. After create a new components,
-- `rafc` get *Creates a React Arrow Function Component with ES7 module system (ES7+ React/Redux/React-Native snippets)*
+## Short keys :rocket:
+Install dependence "**ES7+ React/Redux/React-Native snippets**" in VS Code. After create <u>a new components</u>,
+- `rafc` get *Creates a **React Arrow Function Component** with ES7 module system (ES7+ React/Redux/React-Native snippets)*
 ```tsx
 import React from 'react'
 
@@ -53,7 +53,7 @@ export const Home = () => {
   )
 }
 ```
-- `rafce` get *Creates a React Arrow Function Component with ES7 module system (ES7+ React/Redux/React-Native snippets)*
+- `rafce` get *Creates a **React Arrow Function Export Component** with ES7 module system (ES7+ React/Redux/React-Native snippets)*
 ```tsx
 import React from 'react'
 
@@ -65,7 +65,7 @@ const Home = () => {
 
 export default Home
 ```
-- `rafcp` get *Creates a React Arrow Function Component with ES7 module system with PropTypes (ES7+ React/Redux/React-Native snippets)*
+- `rafcp` get *Creates a **React Arrow Function Component With PropTypes** with ES7 module syste (ES7+ React/Redux/React-Native snippets)*
 ```tsx
 import React from 'react'
 import PropTypes from 'prop-types'
@@ -80,3 +80,4 @@ Home.propTypes = {}
 
 export default Home
 ```
+:warning: When using react native, replace all the default `<div>` into `<Text>`, otherwise will got compile error.
